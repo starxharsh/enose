@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering
+\caption{CO Gas Concentration Prediction on UCI Benchmark Dataset}
+\label{tab:uci_regression}
+\begin{tabular}{lcccc}
+\toprule
+Model & Co R2 & Co Rmse & Co Mae & Co Mape \\
+\midrule
+KNN Regressor & 0.6336 & 3.9873 & 2.4100 & 36.4063 \\
+Support Vector Regressor & 0.6352 & 3.9786 & 2.3456 & 36.9445 \\
+Random Forest Regressor & \textbf{0.8629} & \textbf{2.4388} & \textbf{1.3711} & \textbf{20.1485} \\
+XGBoost Regressor & 0.8608 & 2.4576 & 1.4367 & 21.2271 \\
+ANN Regressor & 0.6831 & 3.7081 & 2.3839 & 34.0592 \\
+1D-CNN Regressor & 0.6927 & 3.6519 & 2.3014 & 34.5981 \\
+TCN Regressor & 0.6448 & 3.9261 & 2.7605 & 42.0727 \\
+\bottomrule
+\end{tabular}
+\end{table}

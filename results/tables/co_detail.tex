@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+\centering
+\caption{Per-Gas Classification for CO}
+\label{tab:CO_detail}
+\begin{tabular}{lccc}
+\toprule
+Model & Co Precision & Co Recall & Co F1 \\
+\midrule
+KNN & 0.5243 & 0.4590 & 0.4895 \\
+SVM & 0.4746 & 0.4255 & 0.4487 \\
+Random Forest & 0.6280 & \textbf{0.6413} & \textbf{0.6346} \\
+XGBoost & 0.6012 & 0.5866 & 0.5938 \\
+LDA & 0.5367 & 0.4894 & 0.5119 \\
+ANN & 0.6250 & 0.5319 & 0.5747 \\
+1D-CNN & 0.4873 & 0.5258 & 0.5058 \\
+LSTM & 0.6241 & 0.5502 & 0.5848 \\
+TCN & 0.5502 & 0.5167 & 0.5329 \\
+Transformer & \textbf{0.6287} & 0.5866 & 0.6069 \\
+GNN & 0.5537 & 0.5015 & 0.5263 \\
+PIML & 0.6199 & 0.5502 & 0.5829 \\
+\bottomrule
+\end{tabular}
+\end{table}

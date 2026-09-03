@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+\centering
+\caption{Classification Performance Comparison of All Models}
+\label{tab:classification_all}
+\begin{tabular}{lcccccc}
+\toprule
+Model & Accuracy & Precision Macro & Recall Macro & F1 Macro & Hamming Loss & Mcc Mean \\
+\midrule
+KNN & 0.2203 & 0.6601 & 0.6544 & 0.6564 & 0.3387 & 0.3237 \\
+SVM & 0.1812 & 0.6512 & 0.6568 & 0.6533 & 0.3418 & 0.3173 \\
+Random Forest & \textbf{0.5219} & \textbf{0.7816} & \textbf{0.8064} & \textbf{0.7936} & \textbf{0.2125} & \textbf{0.5755} \\
+XGBoost & 0.4406 & 0.7619 & 0.7755 & 0.7683 & 0.2359 & 0.5287 \\
+LDA & 0.1000 & 0.6090 & 0.5822 & 0.5945 & 0.3937 & 0.2129 \\
+ANN & 0.3109 & 0.7388 & 0.7404 & 0.7383 & 0.2574 & 0.4870 \\
+1D-CNN & 0.2547 & 0.6650 & 0.6928 & 0.6780 & 0.3289 & 0.3424 \\
+LSTM & 0.2469 & 0.7319 & 0.6952 & 0.7057 & 0.2680 & 0.4680 \\
+TCN & 0.1922 & 0.6888 & 0.6608 & 0.6741 & 0.3215 & 0.3574 \\
+Transformer & 0.3219 & 0.7641 & 0.7344 & 0.7485 & 0.2473 & 0.5069 \\
+GNN & 0.1375 & 0.6436 & 0.5996 & 0.6207 & 0.3645 & 0.2708 \\
+PIML & 0.3031 & 0.7278 & 0.7218 & 0.7239 & 0.2762 & 0.4489 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Large raw datasets (avoid GitHub 100MB file limit)
+data/raw/
+*.zip
+*.xlsx
+
+# Preserve pre-extracted feature matrices so professor can run instantly
+!data/features/
+data/features/*.json
+data/features/*.npy
+
+# OS files
+.DS_Store
+Thumbs.db
