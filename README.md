@@ -86,6 +86,22 @@ Evaluated on 640 independent test exposure windows across 12 candidate models:
 
 ---
 
+### 3. Visualizations & Publication Figures
+
+| Sensor Dynamic Responses (All 8 Mixtures) | GNN Sensor Array Topology |
+| :---: | :---: |
+| ![Sensor Dynamic Responses](results/figures/sensor_responses.png) | ![GNN Sensor Topology](results/figures/sensor_graph_gnn.png) |
+
+| Multi-Metric Model Comparison Radar | Comparative ROC-AUC Curves |
+| :---: | :---: |
+| ![Radar Comparison](results/figures/radar_comparison.png) | ![ROC Curves](results/figures/roc_curves_all.png) |
+
+| Continuous CO Concentration Regression | Confusion Matrix (Random Forest) |
+| :---: | :---: |
+| ![Predicted vs Actual CO](results/figures/pred_vs_actual_random_forest_regressor.png) | ![Confusion Matrix](results/figures/cm_random_forest.png) |
+
+---
+
 ## 📁 Repository Structure
 
 ```
